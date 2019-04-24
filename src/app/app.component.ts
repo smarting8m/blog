@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'BlogProject';
 
-  posts = [
+  initPosts = [
     {
       title: 'Premier post',
       content: 'Ceci est le contenu du premier post.',
@@ -22,7 +22,7 @@ export class AppComponent {
     },
     {
       title: 'La fleur',
-      content: 'La fleur dojnt je souhaite vous parler s\'éparpille dans le monde comme un torrent dans la terre. Bullshit' ,
+      content: 'La fleur dont je souhaite vous parler s\'éparpille dans le monde comme un torrent dans la terre. Bullshit' ,
       loveIts: 0
     }
   ];
