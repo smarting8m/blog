@@ -8,5 +8,22 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'BlogProject';
 
-  posts = [];
+  posts = [
+    {
+      title: 'Premier post',
+      content: 'Ceci est le contenu du premier post.',
+      loveIts: -5,
+      date: new Date('25/01/1988')
+    },
+    {
+      title: 'Second post',
+      content: 'Je voulais un autre monde, ou la terre serait ronde.',
+      loveIts: 3
+    },
+    {
+      title: 'La fleur',
+      content: 'La fleur dojnt je souhaite vous parler s\'éparpille dans le monde comme un torrent dans la terre. Bullshit' ,
+      loveIts: 0
+    }
+  ];
 }
